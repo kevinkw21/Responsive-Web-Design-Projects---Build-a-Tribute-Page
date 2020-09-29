@@ -12,21 +12,24 @@ body{
 
 
 #badge {
-  height: 100px;
+  height: 70px;
+ 
   }
 
   h1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+   
     background-color: white;
     border-radius: 5px;
     padding: 15px;
-    position: relative;
-  }
+      }
 
-  #title {
-    
-  }
+
+
+
+
+
 
 
 h2 {
@@ -89,6 +92,10 @@ h2 {
     text-align: center;
   }
   
+  #tribute-info {
+    font-size: 1.2rem;
+  }
+
   ul {
     max-width: 550px;
     margin: 0 auto 50px auto;
